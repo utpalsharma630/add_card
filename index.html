@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add card</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="w-10/12 m-auto lg:flex ">
+        <div class=" w-full m-auto md:grid grid-cols-3 ">
+            <div class="card md:w-48 my-5 bg-base-100 shadow-xl">
+                
+                <div class="card-body items-center text-center">
+                  <h2 id="list1" class="card-title">Shoes</h2>
+                  <p>$ <span id="price1">550</span></p>
+                  <div class="card-actions">
+                    <button id="btn1" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="card md:w-48 my-5 bg-base-100 shadow-xl">
+                <div class="card-body items-center text-center">
+                  <h2 id="list2" class="card-title">Pant</h2>
+                  <p>$ <span id="price2">750</span></p>
+                  <div class="card-actions">
+                    <button id="btn2" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+              <div class="card md:w-48 my-5 bg-base-100 shadow-xl">
+                <div class="card-body items-center text-center">
+                  <h2 id="list3" class="card-title">T-shirt</h2>
+                  <p>$ <span id="price3">650</span></p>
+                  <div class="card-actions">
+                    <button id="btn3" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full lg:w-1/4 m-auto mt-20 border-2 bg-gray-300 h-96">
+            <h2 class="pl-3">$ <span id="add">00</span></h2>
+            <ul id="nameList" class="pl-3">
+ 
+            </ul>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
